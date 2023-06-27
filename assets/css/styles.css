@@ -312,6 +312,17 @@ button{
   background-color: var(--first-color-alt);
 }
 
+.button--ghost{
+  border: 2px solid;
+  background-color: transparent;
+  border-radius: 3rem;
+  padding: .75rem 1.5rem;
+}
+
+.button--ghost:hover {
+  background: none;
+}
+
 /* Swiper Class */
 
 
