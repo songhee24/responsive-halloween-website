@@ -58,9 +58,6 @@ function generateHomeCard({
   button2Text,
   button2Link,
 }) {
-  const swiperWrapper = document.createElement("div");
-  swiperWrapper.classList.add("swiper-wrapper");
-
   const swiperSlide = document.createElement("section");
   swiperSlide.classList.add("swiper-slide");
 
@@ -142,10 +139,8 @@ function generateHomeCard({
 
   swiperSlide.appendChild(homeContent);
 
-  swiperWrapper.appendChild(swiperSlide);
-
-  const parentElement = document.querySelector(".swiper.home-swiper");
-  parentElement.appendChild(swiperWrapper);
+  const parentElement = document.querySelector(".swiper-wrapper");
+  parentElement.appendChild(swiperSlide);
 }
 
 homeData.forEach((homeData) => generateHomeCard(homeData));
