@@ -233,7 +233,30 @@ button{
 
 
 /*=============== HOME ===============*/
+.home__content {
+  row-gap: 1rem;
+}
 
+.home__group {
+  display: grid;
+  position: relative;
+  padding-top: 2rem;
+}
+
+.home__img {
+  height: 250px;
+  justify-self: center;
+}
+
+.home__indicator {
+  width: 8px;
+  height: 8px;
+  background-color: var(--title-color);
+  border-radius: 50%;
+  position: absolute;
+  top: 7rem;
+  right: 2rem;
+}
 
 /* Swiper Class */
 
