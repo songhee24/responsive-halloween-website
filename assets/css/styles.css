@@ -211,6 +211,11 @@ button{
   row-gap: 1.5rem;
 }
 
+.nav__link {
+  text-transform: uppercase;
+  font-weight: var(--font-black);
+}
+
 /* Show menu */
 
 
