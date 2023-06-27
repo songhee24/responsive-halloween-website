@@ -53,8 +53,8 @@ function generateHomeCard(
   homeData.classList.add("home__data");
 
   const subtitleElement = document.createElement("h3");
-  subtitle.classList.add("home__subtitle");
-  subtitle.textContent = subtitle;
+  subtitleElement.classList.add("home__subtitle");
+  subtitleElement.textContent = subtitle;
 
   const titleElement = document.createElement("h1");
   titleElement.classList.add("home__title");
