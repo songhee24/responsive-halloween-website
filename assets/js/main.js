@@ -32,6 +32,15 @@ navLink.forEach((n) => n.addEventListener("click", linkAction));
 
 /*=============== HOME SWIPER ===============*/
 
+let homeSwiper = new Swiper(".home-swiper", {
+  spaceBetween: 30,
+  loop: "true",
+  pagination: {
+    el: ".swiper-pagination",
+    clickable: true,
+  },
+});
+
 /*=============== CHANGE BACKGROUND HEADER ===============*/
 
 /*=============== NEW SWIPER ===============*/
