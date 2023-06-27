@@ -1,4 +1,21 @@
-function generateHomeCard(
+const homeData = [
+  {
+    imgSrc: "assets/img/home1-img.png",
+    imgAlt: "pam ken",
+    detailsTitle: "The Labu “Reiza”",
+    detailsSubtitle: "The Living Pumpkin",
+    subtitle: "#1 Top Scariest Ghost",
+    title: "UOOOO <br> TRICK OR <br> TREAT!!",
+    description:
+      'Hi, I\'m Reiza, people call me "El Labu". I am currently trying to learn something new, building my own bike with parts made only in Malaysia.',
+    button1Text: "Book Now",
+    button1Link: "#",
+    button2Text: "Track Record",
+    button2Link: "#",
+  },
+];
+
+function generateHomeCard({
   imgSrc,
   imgAlt,
   detailsTitle,
@@ -9,8 +26,8 @@ function generateHomeCard(
   button1Text,
   button1Link,
   button2Text,
-  button2Link
-) {
+  button2Link,
+}) {
   const swiperWrapper = document.createElement("div");
   swiperWrapper.classList.add("swiper-wrapper");
 
