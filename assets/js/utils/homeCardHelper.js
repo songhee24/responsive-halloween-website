@@ -148,16 +148,4 @@ function generateHomeCard({
   parentElement.appendChild(swiperWrapper);
 }
 
-generateHomeCard(
-  "assets/img/home1-img.png",
-  "pam ken",
-  "The Labu “Reiza”",
-  "The Living Pumpkin",
-  "#1 Top Scariest Ghost",
-  "UOOOO <br> TRICK OR <br> TREAT!!",
-  'Hi, I\'m Reiza, people call me "El Labu". I am currently trying to learn something new, building my own bike with parts made only in Malaysia.',
-  "Book Now",
-  "#",
-  "Track Record",
-  "#"
-);
+homeData.forEach((homeData) => generateHomeCard(homeData));
