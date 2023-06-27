@@ -13,6 +13,21 @@ const homeData = [
     button2Text: "Track Record",
     button2Link: "#",
   },
+  {
+    imgSrc: "assets/img/home2-img.png",
+    imgAlt: "ghost",
+    detailsTitle: "Adino & Grahami",
+    detailsSubtitle: "No words can describe them",
+    subtitle: "#2 top Best duo",
+    title: "BRING BACK <br> MY COTTON <br> CANDY",
+    description:
+      "Adino steals cotton candy from his brother and eats them all in one bite, \n" +
+      "a hungry beast. Grahami can no longer contain his anger towards Adino.",
+    button1Text: "Book Now",
+    button1Link: "#",
+    button2Text: "Track Record",
+    button2Link: "#",
+  },
 ];
 
 function generateHomeCard({
