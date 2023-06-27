@@ -1,3 +1,10 @@
+const links = [
+    { href: '#home', text: 'Home' },
+    { href: '#about', text: 'About' },
+    { href: '#candy', text: 'Candy' },
+    { href: '#new', text: 'New' }
+];
+
 function generateNavLinks(links, parentElementId) {
     const parentElement = document.getElementById(parentElementId);
 
@@ -13,4 +20,8 @@ function generateNavLinks(links, parentElementId) {
         liElement.appendChild(aElement);
         parentElement.appendChild(liElement);
     });
+
 }
+
+generateNavLinks(links, 'nav-ul-menu');
+
