@@ -134,6 +134,14 @@ button{
 
 /*=============== HEADER ===============*/
 
+.header {
+  width: 100%;
+  background: var(--body-color);
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: var(--z-fixed) ;
+}
 
 /*=============== NAV ===============*/
 
