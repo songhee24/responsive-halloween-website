@@ -258,6 +258,16 @@ button{
   right: 2rem;
 }
 
+.home__indicator::after {
+  content: "";
+  position: absolute;
+  width: 1px;
+  height: 48px;
+  background-color: var(--title-color);
+  top: -3rem;
+  right: 45%;
+}
+
 /* Swiper Class */
 
 
