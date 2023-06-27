@@ -21,6 +21,12 @@ function generateNavLinks(links, parentElementId) {
         parentElement.appendChild(liElement);
     });
 
+    const aSupportElement = document.createElement('a');
+    aSupportElement.classList.add(...['button', 'button--ghost']);
+    aSupportElement.textContent = 'Support'
+    aSupportElement.href = '#';
+
+    parentElement.appendChild(aSupportElement);
 }
 
 generateNavLinks(links, 'nav-ul-menu');
