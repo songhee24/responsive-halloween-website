@@ -214,6 +214,11 @@ button{
 .nav__link {
   text-transform: uppercase;
   font-weight: var(--font-black);
+  transition: .4s;
+}
+
+.nav__link:hover {
+  color: var(--text-color);
 }
 
 /* Show menu */
