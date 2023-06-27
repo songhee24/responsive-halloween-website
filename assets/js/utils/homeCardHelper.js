@@ -28,6 +28,21 @@ const homeData = [
     button2Text: "Track Record",
     button2Link: "#",
   },
+  {
+    imgSrc: "assets/img/home3-img.png",
+    imgAlt: "Captain Sem",
+    detailsTitle: "Captain Sem",
+    detailsSubtitle: "Veteran Spooky Ghost",
+    subtitle: "RESPAWN <br> THE SPOOKY <br> SKULL",
+    title: "BRING BACK <br> MY COTTON <br> CANDY",
+    description:
+      "In search for cute little puppy, Captain Sem has come back from his tragic death. \n" +
+      "With his hogwarts certified power he promise to be a hero for all of ghostkind.",
+    button1Text: "Book Now",
+    button1Link: "#",
+    button2Text: "Track Record",
+    button2Link: "#",
+  },
 ];
 
 function generateHomeCard({
