@@ -67,10 +67,6 @@ function generateTrickOrTreat({
 
   buttonElement.appendChild(iElement);
 
-  // <button className="button trick__button">
-  //     <i className="bx bx-cart-alt trick__icon"></i>
-  // </button>
-
   trickContent.appendChild(imgElement);
   trickContent.appendChild(h3Element);
   trickContent.appendChild(spanElement1);
