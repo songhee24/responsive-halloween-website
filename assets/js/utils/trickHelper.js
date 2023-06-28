@@ -30,3 +30,19 @@ const trickOrTreat = [
     imgSrc: "assets/img/trick-treat4-img.png",
   },
 ];
+
+function generateTrickOrTreat({
+  trick__title,
+  trick__subtitle,
+  price,
+  imgSrc,
+}) {
+  const getParentElement = document.querySelector(
+    ".trick__container.container.grid"
+  );
+
+  const h3Element = document.createElement("h3");
+  h3Element.classList.add("trick__title");
+  h3Element.textContent = trick__title;
+  const spanElement1 = document.createElement("p");
+}
