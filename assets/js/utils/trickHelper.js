@@ -59,10 +59,23 @@ function generateTrickOrTreat({
   spanElement2.textContent = price;
   spanElement2.classList.add("trick__price");
 
+  const buttonElement = document.createElement("button");
+  buttonElement.classList.add("button", "trick__button");
+
+  const iElement = document.createElement("i");
+  iElement.classList.add("bx", "bx-cart-alt", "trick__icon");
+
+  buttonElement.appendChild(iElement);
+
+  // <button className="button trick__button">
+  //     <i className="bx bx-cart-alt trick__icon"></i>
+  // </button>
+
   trickContent.appendChild(imgElement);
   trickContent.appendChild(h3Element);
   trickContent.appendChild(spanElement1);
   trickContent.appendChild(spanElement2);
+  trickContent.appendChild(buttonElement);
 
   parentElement.appendChild(trickContent);
 }
