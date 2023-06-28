@@ -6,12 +6,12 @@ const categories = [
   },
   {
     section__title: "Pumpkins",
-    srcImg: "assets/img/category1-img.png",
+    srcImg: "assets/img/category2-img.png",
     category__description: "You look at the scariest pumpkins there is.",
   },
   {
     section__title: "Witch Hat",
-    srcImg: "assets/img/category1-img.png",
+    srcImg: "assets/img/category3-img.png",
     category__description: "Pick the most stylish witch hats out there.",
   },
 ];
@@ -41,3 +41,5 @@ function generateCategory({ section__title, srcImg, category__description }) {
 
   parentElement.appendChild(categoryDataElement);
 }
+
+categories.forEach((category) => generateCategory(category));
