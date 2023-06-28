@@ -41,6 +41,11 @@ function generateTrickOrTreat({
     ".trick__container.container.grid"
   );
 
+  const imgElement = document.createElement("img");
+  imgElement.classList.add("trick__img");
+  imgElement.alt = trick__title;
+  imgElement.src = imgSrc;
+
   const h3Element = document.createElement("h3");
   h3Element.classList.add("trick__title");
   h3Element.textContent = trick__title;
