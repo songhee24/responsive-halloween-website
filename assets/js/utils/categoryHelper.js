@@ -35,4 +35,9 @@ function generateCategory({ section__title, srcImg, category__description }) {
   const pElement = document.createElement("p");
   pElement.classList.add("category_description");
   pElement.textContent = category__description;
+  categoryDataElement.appendChild(imgElement);
+  categoryDataElement.appendChild(h3Element);
+  categoryDataElement.appendChild(pElement);
+
+  parentElement.appendChild(categoryDataElement);
 }
