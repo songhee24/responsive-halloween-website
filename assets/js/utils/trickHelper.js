@@ -37,9 +37,12 @@ function generateTrickOrTreat({
   price,
   imgSrc,
 }) {
-  const getParentElement = document.querySelector(
+  const parentElement = document.querySelector(
     ".trick__container.container.grid"
   );
+
+  const trickContent = document.createElement("div");
+  trickContent.classList.add("trick__content");
 
   const imgElement = document.createElement("img");
   imgElement.classList.add("trick__img");
@@ -49,5 +52,17 @@ function generateTrickOrTreat({
   const h3Element = document.createElement("h3");
   h3Element.classList.add("trick__title");
   h3Element.textContent = trick__title;
-  const spanElement1 = document.createElement("p");
+  const spanElement1 = document.createElement("span");
+  spanElement1.classList.add("trick__subtitle");
+  spanElement1.textContent = trick__subtitle;
+  const spanElement2 = document.createElement("span");
+  spanElement2.textContent = price;
+  spanElement2.classList.add("trick__price");
+
+  trickContent.appendChild(imgElement);
+  trickContent.appendChild(h3Element);
+  trickContent.appendChild(spanElement1);
+  trickContent.appendChild(spanElement2);
+
+  parentElement.appendChild(trickContent);
 }
