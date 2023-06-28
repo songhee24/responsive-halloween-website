@@ -364,7 +364,10 @@ margin: 0 .5rem;
 }
 
 /*=============== CATEGORY ===============*/
-
+.category__container {
+  grid-template-columns: repeat(2, 1fr);
+  gap: 1rem 2rem;
+}
 
 /*=============== ABOUT ===============*/
 

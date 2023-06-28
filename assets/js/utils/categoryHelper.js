@@ -18,7 +18,7 @@ const categories = [
 
 function generateCategory({ section__title, srcImg, category__description }) {
   const parentElement = document.querySelector(
-    ".container__container.container.grid"
+    ".category__container.container.grid"
   );
   const categoryDataElement = document.createElement("div");
   categoryDataElement.classList.add("category__data");
