@@ -9,25 +9,25 @@ const trickOrTreat = [
     trick__title: "Scarecrow",
     trick__subtitle: "Accessory",
     price: "51.99",
-    imgSrc: "assets/img/trick-treat2-img.png",
+    imgSrc: "assets/img/trick-treat3-img.png",
   },
   {
     trick__title: "Candy Cane",
     trick__subtitle: "Candy",
     price: "8.99",
-    imgSrc: "assets/img/trick-treat3-img.png",
+    imgSrc: "assets/img/trick-treat4-img.png",
   },
   {
     trick__title: "Pumpkin",
     trick__subtitle: "Accessory",
     price: "23.99",
-    imgSrc: "assets/img/trick-treat4-img.png",
+    imgSrc: "assets/img/trick-treat5-img.png",
   },
   {
     trick__title: "Ghost",
     trick__subtitle: "Accessory",
     price: "32.99",
-    imgSrc: "assets/img/trick-treat4-img.png",
+    imgSrc: "assets/img/trick-treat6-img.png",
   },
 ];
 
@@ -66,3 +66,5 @@ function generateTrickOrTreat({
 
   parentElement.appendChild(trickContent);
 }
+
+trickOrTreat.forEach((trickOrTreat) => generateTrickOrTreat(trickOrTreat));
