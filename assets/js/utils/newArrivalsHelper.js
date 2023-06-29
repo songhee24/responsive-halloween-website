@@ -77,4 +77,15 @@ function generateNewArrivalCard({
   newImgElement.alt = new__title;
   newImgElement.src = imgSrs;
   newImgElement.classList.add("new__img");
+
+  const newTitleElement = document.createElement("h3");
+  newTitleElement.textContent = new__title;
+  newTitleElement.classList.add("new__title");
+
+  const newSubtitleElement = document.createElement("span");
+  newSubtitleElement.classList.add("new__subtitle");
+  newSubtitleElement.textContent = new__subtitle;
+
+  const newPricesElement = document.createElement("div");
+  newPricesElement.classList.add("new__prices");
 }
