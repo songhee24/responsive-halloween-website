@@ -452,6 +452,19 @@ margin: 0 .5rem;
   border-radius: .25rem .25rem .75rem .25rem;
   position: absolute;
   right: 0;
+  bottom: -3rem;
+}
+
+.trick__icon {
+  font-size: 1.25rem;
+  color: var(--title-color);
+}
+
+.trick__content:hover .trick__img {
+  transform: translateY(-.5rem);
+}
+
+.trick__content:hover .trick__button {
   bottom: 0;
 }
 
