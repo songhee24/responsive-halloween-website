@@ -88,4 +88,23 @@ function generateNewArrivalCard({
 
   const newPricesElement = document.createElement("div");
   newPricesElement.classList.add("new__prices");
+
+  const newPrice = document.createElement("span");
+  newPrice.classList.add("new__price");
+  newPrice.textContent = price;
+
+  const newDiscount = document.createElement("span");
+  newDiscount.classList.add("new__discount");
+  newDiscount.textContent = discountPrice;
+
+  newPricesElement.appendChild(newPrice);
+  newPricesElement.appendChild(newDiscount);
+
+  const newButtonElement = document.createElement("button");
+  newButtonElement.classList.add("new__button", "button");
+
+  const newIconElement = document.createElement("i");
+  newIconElement.classList.add("bx", "bx-cart-alt", "new__icon");
+
+  newButtonElement.appendChild(newIconElement);
 }
