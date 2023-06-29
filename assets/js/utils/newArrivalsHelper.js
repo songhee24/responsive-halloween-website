@@ -43,22 +43,6 @@ const newArrivals = [
   },
 ];
 
-// <div className="swiper-slide new__content">
-//     <div className="new__tag">New</div>
-//     <img src="assets/img/new1-img.png" alt="new" className="new__img">
-//         <h3 className="new__title">Haunted House</h3>
-//         <span className="new__subtitle">Accessory</span>
-//
-//         <div className="new__prices">
-//             <span className="new__price">#14.99</span>
-//             <span className="new__discount">#29.99</span>
-//         </div>
-//
-//         <button className="button new__button">
-//             <i className="bx bx-cart-alt new__icon"></i>
-//         </button>
-// </div>
-
 function generateNewArrivalCard({
   new__title,
   new__subtitle,
@@ -115,3 +99,5 @@ function generateNewArrivalCard({
   newIconElement.appendChild(newPricesElement);
   newIconElement.appendChild(newButtonElement);
 }
+
+newArrivals.forEach((newArrival) => generateNewArrivalCard(newArrival));
