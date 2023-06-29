@@ -50,7 +50,7 @@ function generateNewArrivalCard({
   price,
   discountPrice,
 }) {
-  const parentElement = document.querySelector(".swiper-wrapper");
+  const parentElement = document.getElementById("new_arrivals");
 
   const newContentElement = document.createElement("div");
   newContentElement.classList.add("swiper-slide", "new__content");
