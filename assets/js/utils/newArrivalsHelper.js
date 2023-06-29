@@ -107,4 +107,11 @@ function generateNewArrivalCard({
   newIconElement.classList.add("bx", "bx-cart-alt", "new__icon");
 
   newButtonElement.appendChild(newIconElement);
+
+  newIconElement.appendChild(newTagElement);
+  newIconElement.appendChild(newImgElement);
+  newIconElement.appendChild(newTitleElement);
+  newIconElement.appendChild(newSubtitleElement);
+  newIconElement.appendChild(newPricesElement);
+  newIconElement.appendChild(newButtonElement);
 }
