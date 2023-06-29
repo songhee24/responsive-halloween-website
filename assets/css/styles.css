@@ -227,6 +227,9 @@ button{
 }
 
 /* Change background header */
+.scroll-header {
+  background: var(--container-color);
+}
 
 
 /* Active link */
