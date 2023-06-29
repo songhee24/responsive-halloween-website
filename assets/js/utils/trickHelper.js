@@ -6,6 +6,12 @@ const trickOrTreat = [
     imgSrc: "assets/img/trick-treat1-img.png",
   },
   {
+    trick__title: "Bone",
+    trick__subtitle: "Accessory",
+    price: "18.99",
+    imgSrc: "assets/img/trick-treat2-img.png",
+  },
+  {
     trick__title: "Scarecrow",
     trick__subtitle: "Accessory",
     price: "51.99",
