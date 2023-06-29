@@ -50,6 +50,8 @@ function generateNewArrivalCard({
   price,
   discountPrice,
 }) {
+  const parentElement = document.querySelector(".swiper-wrapper");
+
   const newContentElement = document.createElement("div");
   newContentElement.classList.add("swiper-slide", "new__content");
 
@@ -92,12 +94,14 @@ function generateNewArrivalCard({
 
   newButtonElement.appendChild(newIconElement);
 
-  newIconElement.appendChild(newTagElement);
-  newIconElement.appendChild(newImgElement);
-  newIconElement.appendChild(newTitleElement);
-  newIconElement.appendChild(newSubtitleElement);
-  newIconElement.appendChild(newPricesElement);
-  newIconElement.appendChild(newButtonElement);
+  newContentElement.appendChild(newTagElement);
+  newContentElement.appendChild(newImgElement);
+  newContentElement.appendChild(newTitleElement);
+  newContentElement.appendChild(newSubtitleElement);
+  newContentElement.appendChild(newPricesElement);
+  newContentElement.appendChild(newButtonElement);
+
+  parentElement.appendChild(newContentElement);
 }
 
 newArrivals.forEach((newArrival) => generateNewArrivalCard(newArrival));
