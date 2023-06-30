@@ -552,6 +552,27 @@ margin: 0 .5rem;
   font-weight: var(--font-medium);
 }
 
+.new__button{
+  display: inline-flex;
+  padding: .5rem;
+  border-radius: .25rem .25rem .75rem .25rem;
+  position: absolute;
+  bottom: 0;
+  right: -3rem;
+}
+
+.new__icon{
+  font-size: 1.25rem;
+}
+
+.new__content:hover .new__img{
+  transform: translateY(-.5rem);
+}
+
+.new__content:hover .new__button{
+  right: 0;
+}
+
 
 /*=============== NEWSLETTER ===============*/
 
