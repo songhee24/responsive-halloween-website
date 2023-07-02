@@ -580,6 +580,14 @@ margin: 0 .5rem;
   margin-bottom: var(--mb-1-5);
 }
 
+.newsletter__form {
+  background: var(--container-color);
+  padding: 1rem;
+  display: flex;
+  justify-content: space-between;
+  border-radius: .75rem;
+}
+
 /*=============== FOOTER ===============*/
 
 
