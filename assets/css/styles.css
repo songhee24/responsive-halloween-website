@@ -769,16 +769,20 @@ margin: 0 .5rem;
   }
 }
 /* For medium devices */
-@media screen and (max-width: 576px){
+@media screen and (min-width: 576px){
   .about__container {
     grid-template-columns: .8fr;
     justify-content: center;
   }
 
-  .newsletter__input {
+  .newsletter__container {
     display: grid;
     grid-template-columns: .7fr;
     justify-content: center;
+  }
+
+  .newsletter__container {
+    padding: 0 3rem;
   }
 }
 
