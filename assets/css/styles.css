@@ -645,6 +645,28 @@ margin: 0 .5rem;
   width: 20px;
 }
 
+.footer__description{
+  margin-bottom: var(--mb-2-5);
+}
+
+.footer__social{
+  display: flex;
+  column-gap: .75rem;
+}
+
+.footer__social-link{
+  display: inline-flex;
+  background: var(--container-color);
+  padding: .25rem;
+  border-radius: .25rem;
+  color: var(--title-color);
+  font-size: 1rem;
+}
+
+.footer__social-link:hover{
+  background: var(--body-color);
+}
+
 /*=============== SCROLL UP ===============*/
 
 
