@@ -769,6 +769,17 @@ margin: 0 .5rem;
   }
 }
 /* For medium devices */
+@media screen and (max-width: 576px){
+  .about__container {
+    grid-template-columns: .8fr;
+    justify-content: center;
+  }
 
+  .newsletter__input {
+    display: grid;
+    grid-template-columns: .7fr;
+    justify-content: center;
+  }
+}
 
 /* For large devices */
