@@ -76,12 +76,12 @@ function scrollActive() {
       const navMenu = document.querySelector(
         ".nav__menu a[href*=" + sectionId + "]"
       );
-      navMenu.classList.add("active-link");
+      if (navMenu !== null) navMenu.classList.add("active-link");
     } else {
       const navMenu = document.querySelector(
         ".nav__menu a[href*=" + sectionId + "]"
       );
-      navMenu.classList.remove("active-link");
+      if (navMenu !== null) navMenu.classList.remove("active-link");
     }
   });
 }
