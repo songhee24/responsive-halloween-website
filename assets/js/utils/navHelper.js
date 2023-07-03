@@ -1,5 +1,5 @@
 const links = [
-  { href: "#home", text: "Home" },
+  { href: "#home", text: "Home", class: "active-link" },
   { href: "#about", text: "About" },
   { href: "#candy", text: "Candy" },
   { href: "#new", text: "New" },
@@ -8,13 +8,13 @@ const links = [
 function generateNavLinks(links, parentElementId) {
   const parentElement = document.getElementById(parentElementId);
 
-  links.forEach((link) => {
+  links.forEach((link, index) => {
     const liElement = document.createElement("li");
     liElement.classList.add("nav__item");
 
     const aElement = document.createElement("a");
     aElement.href = link.href;
-    aElement.classList.add("nav__link", "active-link");
+    aElement.classList.add("nav__link");
     aElement.textContent = link.text;
 
     liElement.appendChild(aElement);

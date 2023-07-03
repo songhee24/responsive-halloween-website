@@ -233,6 +233,20 @@ button{
 
 
 /* Active link */
+.active-link {
+  position: relative;
+}
+
+.active-link::before {
+  content: '';
+  position: absolute;
+  width: 5px;
+  height: 5px;
+  left: 105%;
+  bottom: 45%;
+  background-color: var(--title-color);
+  border-radius: 50%;
+}
 
 
 /*=============== HOME ===============*/
