@@ -14,7 +14,7 @@ function generateNavLinks(links, parentElementId) {
 
     const aElement = document.createElement("a");
     aElement.href = link.href;
-    aElement.classList.add("nav__link");
+    aElement.classList.add("nav__link", "active-link");
     aElement.textContent = link.text;
 
     liElement.appendChild(aElement);
