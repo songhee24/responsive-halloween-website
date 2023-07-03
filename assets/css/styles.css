@@ -601,6 +601,27 @@ margin: 0 .5rem;
 
 /*=============== FOOTER ===============*/
 
+.footer {
+  position: relative;
+  overflow: hidden;
+}
+
+.footer__img-one, .footer__img-two {
+  position: absolute;
+  transition: .3s;
+}
+
+.footer__img-one {
+  width: 100px;
+  top: 6rem;
+  right: -2rem;
+}
+
+.footer__img-two {
+  width: 150px;
+  bottom: 4rem;
+  right: 4rem;
+}
 
 /*=============== SCROLL UP ===============*/
 
