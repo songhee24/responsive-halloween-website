@@ -588,6 +588,17 @@ margin: 0 .5rem;
   border-radius: .75rem;
 }
 
+.newsletter__input {
+  width: 70%;
+  padding: 0 .5rem;
+  background: none;
+  color: var(--title-color);
+}
+
+.newsletter__input::placeholder {
+  color: var(--text-color);
+}
+
 /*=============== FOOTER ===============*/
 
 
