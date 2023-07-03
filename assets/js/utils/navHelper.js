@@ -1,5 +1,5 @@
 const links = [
-  { href: "#home", text: "Home", class: "active-link" },
+  { href: "#home", text: "Home" },
   { href: "#about", text: "About" },
   { href: "#candy", text: "Candy" },
   { href: "#new", text: "New" },
