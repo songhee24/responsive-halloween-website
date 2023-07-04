@@ -806,7 +806,13 @@ margin: 0 .5rem;
   }
 
   .nav__list {
-    flex-direction: column;
+    flex-direction: row;
+    column-gap: 3rem;
+  }
+
+  .nav__link {
+    text-transform: initial;
+    font-weight: initial;
   }
 }
 
