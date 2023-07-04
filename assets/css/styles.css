@@ -860,6 +860,11 @@ margin: 0 .5rem;
     padding: 3rem 0;
     border-radius: 3rem;
   }
+
+  .discount__img{
+    width: 350px;
+    order: -1;
+  }
 }
 
 /* For large devices */
