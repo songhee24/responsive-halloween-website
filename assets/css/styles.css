@@ -865,6 +865,9 @@ margin: 0 .5rem;
     width: 350px;
     order: -1;
   }
+  .discount__data{
+    padding-right: 6rem;
+  }
 }
 
 /* For large devices */
