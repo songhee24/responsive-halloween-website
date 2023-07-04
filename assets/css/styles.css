@@ -851,6 +851,15 @@ margin: 0 .5rem;
     justify-content: center;
     gap: 2rem;
   }
+
+  .discount__container{
+    grid-template-columns: repeat(2, max-content);
+    justify-content: center;
+    align-items: center;
+    column-gap: 3rem;
+    padding: 3rem 0;
+    border-radius: 3rem;
+  }
 }
 
 /* For large devices */
