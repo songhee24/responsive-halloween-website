@@ -984,3 +984,20 @@ margin: 0 .5rem;
     margin-top: 6rem;
   }
 }
+
+@media screen and (min-width: 1200px){
+  .home__img{
+    height: 420px;
+  }
+  .swiper-pagination{
+    margin-top: var(--mb-2-5);
+  }
+  .footer__img-one{
+    width: 120px;
+  }
+  .footer__img-two{
+    width: 180px;
+    top: 30%;
+    left: -3%;
+  }
+}
