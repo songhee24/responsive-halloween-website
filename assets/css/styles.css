@@ -1001,3 +1001,8 @@ margin: 0 .5rem;
     left: -3%;
   }
 }
+
+/*=============== KEYFRAMES ===============*/
+@keyframes floating {
+  0% { transform: translate(0,  0px); }
+}
