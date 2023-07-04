@@ -824,6 +824,15 @@ margin: 0 .5rem;
   .home__img {
     height: 300px;
   }
+
+  .swiper-pagination{
+    margin-top: var(--mb-2);
+  }
+
+  .category__container{
+    grid-template-columns: repeat(3, 200px);
+    justify-content: center;
+  }
 }
 
 /* For large devices */
