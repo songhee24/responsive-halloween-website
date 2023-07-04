@@ -814,6 +814,16 @@ margin: 0 .5rem;
     text-transform: initial;
     font-weight: initial;
   }
+
+  .home__content {
+    padding: 8rem 0 2rem;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 4rem;
+  }
+
+  .home__img {
+    height: 300px;
+  }
 }
 
 /* For large devices */
