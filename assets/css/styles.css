@@ -833,6 +833,18 @@ margin: 0 .5rem;
     grid-template-columns: repeat(3, 200px);
     justify-content: center;
   }
+
+  .about__container{
+    grid-template-columns: repeat(2, 1fr);
+    align-items: center;
+  }
+  .about__title,
+  .about__data{
+    text-align: initial;
+  }
+  .about__img{
+    width: 250px;
+  }
 }
 
 /* For large devices */
