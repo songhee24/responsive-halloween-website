@@ -845,6 +845,12 @@ margin: 0 .5rem;
   .about__img{
     width: 250px;
   }
+
+  .trick__container{
+    grid-template-columns: repeat(3, 200px);
+    justify-content: center;
+    gap: 2rem;
+  }
 }
 
 /* For large devices */
