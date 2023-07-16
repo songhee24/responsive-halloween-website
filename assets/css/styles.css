@@ -959,4 +959,8 @@ margin: 0 .5rem;
   .trick__title{
     font-size: var(--h3-font-size);
   }
+
+  .discount__container{
+    column-gap: 7rem;
+  }
 }
