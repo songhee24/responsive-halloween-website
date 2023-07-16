@@ -936,4 +936,14 @@ margin: 0 .5rem;
   .category__img{
     width: 200px;
   }
+
+  .about__container{
+    column-gap: 7rem;
+  }
+  .about__img{
+    width: 350px;
+  }
+  .about__description{
+    padding-right: 2rem;
+  }
 }
