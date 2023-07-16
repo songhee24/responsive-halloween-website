@@ -897,4 +897,36 @@ margin: 0 .5rem;
     margin-bottom: 3rem;
   }
 
+  .home__content{
+    padding-top: 9rem;
+    gap: 3rem;
+  }
+  .home__group{
+    padding-top: 0;
+  }
+  .home__img{
+    height: 400px;
+    transform: translateY(-3rem);
+  }
+  .home__indicator{
+    top: initial;
+    right: initial;
+    bottom: 15%;
+    left: 45%;
+  }
+  .home__indicator::after{
+    top: 0;
+    height: 75px;
+  }
+  .home__details-img{
+    bottom: 0;
+    right: 58%;
+  }
+  .home__title{
+    margin-bottom: var(--mb-1-5);
+  }
+  .home__description{
+    margin-bottom: var(--mb-2-5);
+    padding-right: 2rem;
+  }
 }
