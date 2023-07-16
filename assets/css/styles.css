@@ -946,4 +946,17 @@ margin: 0 .5rem;
   .about__description{
     padding-right: 2rem;
   }
+
+  .trick__container{
+    gap: 3.5rem;
+  }
+  .trick__content{
+    border-radius: 1.5rem;
+  }
+  .trick__img{
+    width: 110px;
+  }
+  .trick__title{
+    font-size: var(--h3-font-size);
+  }
 }
